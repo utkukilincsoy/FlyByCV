@@ -1,0 +1,93 @@
+{
+  "personal_info": {
+    "name": "Gülşah Çiçek",
+    "email": "gulsah.cicek@example.com",
+    "phone": "+90 (555) 123-4567",
+    "location": "İstanbul, Türkiye",
+    "linkedin": "linkedin.com/in/ornek-kullanici",
+    "intro": "ÖRNEK Üniversitesi Bilgisayar Mühendisliği 3. sınıf öğrencisiyim"
+  },
+  "summaries": {
+    "default": "Yazılım geliştirici, yapay zeka ve siber güvenlik ilgilenmektedir.",
+    "yapay-zeka": "ÖRNEK: yapay zeka odaklı özet metni buraya."
+  },
+  "experience": [
+    {
+      "id": "exp_001",
+      "tags": ["backend", "veritabani"],
+      "company": "TechCorp Ltd.",
+      "title": "Yazılım Geliştirici",
+      "department": "Ürün",
+      "note": "Tam zamanlı",
+      "topics": ["Python", "REST API"],
+      "start_date": "2021-06",
+      "end_date": "2023-12",
+      "bullets": [
+        "Python ile API ve veritabanı tasarımı yaptım.",
+        "RESTful servisler ve mikroservis mimarisi kurdum."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "edu_001",
+      "tags": ["backend"],
+      "school": "Istanbul Teknik Üniversitesi",
+      "field": "Bilgisayar Mühendisliği",
+      "degree": "Lisans",
+      "gpa": "3.20/4.00",
+      "show_gpa": true,
+      "start_date": "2017",
+      "end_date": "2021",
+      "expected": false
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_001",
+      "tags": ["yapay-zeka", "veri-bilimi"],
+      "name": "Metin Sınıflandırması Sistemi",
+      "date": "2023-05",
+      "bullets": [
+        "Claude API kullanarak Türkçe metinleri kategorize eden bir araç geliştirdim.",
+        "Pydantic ile çıktı doğrulaması ekledim."
+      ],
+      "technologies": ["Python", "Claude API", "Pydantic"]
+    }
+  ],
+  "skills": [
+    {
+      "id": "skill_001",
+      "tags": ["backend"],
+      "name": "Python",
+      "level": "İleri",
+      "category": "Programlama Dilleri"
+    },
+    {
+      "id": "skill_002",
+      "tags": ["backend"],
+      "name": "SQL",
+      "level": "Orta",
+      "category": "Veritabanı"
+    },
+    {
+      "id": "skill_003",
+      "tags": ["yapay-zeka"],
+      "name": "Claude API",
+      "level": "Orta",
+      "category": "Yapay Zeka"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "ach_001",
+      "tags": ["arge"],
+      "title": "AI Hackathon Birinciliği",
+      "description": "2023 yılında düzenlenen uluslararası yapay zeka hackathonunda birinci oldum."
+    }
+  ],
+  "languages": [
+    { "name": "Türkçe", "level": "Anadil" },
+    { "name": "İngilizce", "level": "B2" }
+  ]
+}

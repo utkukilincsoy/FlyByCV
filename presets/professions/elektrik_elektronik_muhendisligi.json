@@ -1,0 +1,39 @@
+{
+  "id": "elektrik_elektronik_muhendisligi",
+  "name_tr": "Elektrik-Elektronik Mühendisliği",
+  "technical": true,
+  "search_queries_tr": [
+    "elektrik elektronik mühendislik firması",
+    "elektronik kart tasarım şirketi",
+    "otomasyon sistemleri firması",
+    "enerji ve elektrik taahhüt şirketi",
+    "PLC ve endüstriyel otomasyon"
+  ],
+  "company_types": [
+    "Elektrik-elektronik mühendislik bürosu",
+    "Enerji/elektrik taahhüt firması",
+    "Endüstriyel otomasyon şirketi",
+    "Elektronik donanım üreticisi"
+  ],
+  "default_mail_templates": {
+    "job": {
+      "subject": "{ad_soyad} – elektrik-elektronik mühendisliği Pozisyonu Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} mezunuyum. {sirket_adi} bünyesinde elektrik-elektronik mühendisliği alanında değerlendirilebileceğim açık bir pozisyon olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "internship": {
+      "subject": "{ad_soyad} – elektrik-elektronik mühendisliği Staj Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde elektrik-elektronik mühendisliği alanında staj imkânı olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "volunteer_internship": {
+      "subject": "{ad_soyad} – Gönüllü Staj Talebi",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde elektrik-elektronik mühendisliği alanında gönüllü (karşılıksız) staj yapma imkânım olup olmadığını öğrenmek isterim. Uygun olduğunuz bir tarih aralığı varsa memnuniyetle değerlendiririm. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "part_time": {
+      "subject": "{ad_soyad} – elektrik-elektronik mühendisliği Yarı Zamanlı Pozisyon Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde elektrik-elektronik mühendisliği alanında yarı zamanlı (part-time) çalışabileceğim bir pozisyon olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    }
+  },
+  "osm_tags": [
+    "office=engineer"
+  ]
+}

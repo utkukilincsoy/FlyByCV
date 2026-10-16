@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<title>{{ title }}</title>
+<style>{% include "cv.css" %}</style>
+</head>
+<body>
+
+<header class="cv-header">
+  <h1>{{ name }}</h1>
+  <p class="contact">
+    {%- for item in contacts %}
+    {%- if not loop.first %} <span class="sep">|</span> {% endif -%}
+    {%- if item.href %}<a href="{{ item.href }}">{{ item.text }}</a>{% else %}{{ item.text }}{% endif -%}
+    {%- endfor %}
+  </p>
+</header>
+
+{% if summary %}
+<section class="section">
+  <h2>ÖZET</h2>
+  <p class="summary">{{ summary }}</p>
+</section>
+{% endif %}
+
+{% if education %}
+<section class="section">
+  <h2>EĞİTİM</h2>
+  {% for edu in education %}
+  <div class="entry">
+    <div class="entry-line">
+      <span class="primary">{{ edu.school }}</span>
+    </div>
+    <div class="entry-line">
+      <span class="secondary">{{ edu.detail }}</span>
+      <span class="dates">{{ edu.dates }}</span>
+    </div>
+  </div>
+  {% endfor %}
+</section>
+{% endif %}
+
+{% if experience %}
+<section class="section">
+  <h2>DENEYİM</h2>
+  {% for exp in experience %}
+  <div class="entry">
+    <div class="entry-line">
+      <span><span class="primary">{{ exp.company }}</span>{% if exp.department %} <span class="secondary">– {{ exp.department }}</span>{% endif %}</span>
+    </div>
+    <div class="entry-line">
+      <span class="secondary">{{ exp.detail }}</span>
+      <span class="dates">{{ exp.dates }}</span>
+    </div>
+    {% if exp.bullets %}
+    <ul>
+      {% for bullet in exp.bullets %}<li>{{ bullet }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+  {% endfor %}
+</section>
+{% endif %}
+
+{% if projects %}
+<section class="section">
+  <h2>PROJELER</h2>
+  {% for project in projects %}
+  <div class="entry">
+    <div class="entry-line">
+      <span><span class="primary">{{ project.name }}</span>{% if project.detail %} <span class="secondary">– {{ project.detail }}</span>{% endif %}</span>
+      <span class="dates">{{ project.dates }}</span>
+    </div>
+    {% if project.bullets %}
+    <ul>
+      {% for bullet in project.bullets %}<li>{{ bullet }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+  {% endfor %}
+</section>
+{% endif %}
+
+{% if achievements %}
+<section class="section">
+  <h2>BAŞARILAR</h2>
+  <ul>
+    {% for achievement in achievements %}<li><span class="primary">{{ achievement.title }}</span> – {{ achievement.description }}</li>{% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if skill_groups %}
+<section class="section">
+  <h2>YETENEKLER</h2>
+  {% for group in skill_groups %}
+  <p class="skill-line">
+    {%- if group.category %}<span class="primary">{{ group.category }}:</span> {% endif -%}
+    {{ group.items }}
+  </p>
+  {% endfor %}
+</section>
+{% endif %}
+
+{% if languages %}
+<section class="section">
+  <h2>DİLLER</h2>
+  <p class="skill-line">{{ languages }}</p>
+</section>
+{% endif %}
+
+</body>
+</html>

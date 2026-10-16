@@ -1,0 +1,39 @@
+{
+  "id": "pazarlama_reklam",
+  "name_tr": "Pazarlama / Reklam",
+  "technical": false,
+  "search_queries_tr": [
+    "reklam ajansı",
+    "dijital pazarlama ajansı",
+    "pazarlama danışmanlık firması",
+    "marka ve iletişim ajansı",
+    "sosyal medya yönetim ajansı"
+  ],
+  "company_types": [
+    "Reklam/iletişim ajansı",
+    "Dijital pazarlama ajansı",
+    "Marka danışmanlığı firması",
+    "Pazarlama departmanı olan şirket"
+  ],
+  "default_mail_templates": {
+    "job": {
+      "subject": "{ad_soyad} – pazarlama Pozisyonu Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} mezunuyum. {sirket_adi} bünyesinde pazarlama alanında değerlendirilebileceğim açık bir pozisyon olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "internship": {
+      "subject": "{ad_soyad} – pazarlama Staj Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde pazarlama alanında staj imkânı olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "volunteer_internship": {
+      "subject": "{ad_soyad} – Gönüllü Staj Talebi",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde pazarlama alanında gönüllü (karşılıksız) staj yapma imkânım olup olmadığını öğrenmek isterim. Uygun olduğunuz bir tarih aralığı varsa memnuniyetle değerlendiririm. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "part_time": {
+      "subject": "{ad_soyad} – pazarlama Yarı Zamanlı Pozisyon Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde pazarlama alanında yarı zamanlı (part-time) çalışabileceğim bir pozisyon olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    }
+  },
+  "osm_tags": [
+    "office=advertising_agency"
+  ]
+}

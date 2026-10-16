@@ -1,0 +1,53 @@
+{
+  "providers": [
+    {
+      "id": "gmail",
+      "name_tr": "Gmail",
+      "supported": true,
+      "smtp_host": "smtp.gmail.com",
+      "smtp_port": 587,
+      "smtp_security": "starttls",
+      "imap_host": "imap.gmail.com",
+      "imap_port": 993,
+      "password_hint_tr": "Google Hesabı → Güvenlik → Uygulama şifreleri'nden alınan 16 haneli uygulama şifresi (normal Gmail şifreniz DEĞİL; hesapta 2 adımlı doğrulama açık olmalı).",
+      "password_guide_tr": [
+        "Tarayıcıda Google Hesabınıza girin (myaccount.google.com) ve soldaki \"Güvenlik\" bölümünü açın.",
+        "\"2 Adımlı Doğrulama\" kapalıysa önce onu açın; uygulama şifresi yalnızca 2 adımlı doğrulama açıkken oluşturulabilir.",
+        "Hesap sayfasının arama kutusuna \"Uygulama şifreleri\" yazıp o sayfayı açın (doğrudan adres: myaccount.google.com/apppasswords).",
+        "Uygulama adı olarak \"FlybyCV\" yazın ve \"Oluştur\"a basın.",
+        "Ekranda çıkan 16 haneli şifreyi boşluksuz kopyalayın (bu pencere kapanınca bir daha gösterilmez).",
+        "Aşağıdaki \"Şifreyi kaydet\" düğmesine basıp yapıştırın, sonra \"Bağlantıyı test et\"e basın."
+      ]
+    },
+    {
+      "id": "yandex",
+      "name_tr": "Yandex",
+      "supported": true,
+      "smtp_host": "smtp.yandex.com",
+      "smtp_port": 465,
+      "smtp_security": "ssl",
+      "imap_host": "imap.yandex.com",
+      "imap_port": 993,
+      "password_hint_tr": "Yandex Hesabı → Güvenlik → Uygulama şifreleri'nden alınan uygulama şifresi (normal Yandex şifreniz DEĞİL).",
+      "password_guide_tr": [
+        "Tarayıcıda Yandex Hesabınıza girin (id.yandex.com) ve \"Güvenlik\" bölümünü açın.",
+        "Gerekirse önce iki adımlı doğrulamayı açın; uygulama şifresi bunun altında oluşturulur.",
+        "\"Uygulama şifreleri\" bölümünde \"Posta\" türünde yeni bir şifre oluşturun, ad olarak \"FlybyCV\" yazın.",
+        "Yandex Posta ayarlarında (Ayarlar → E-posta programları) \"IMAP ile erişime izin ver\" seçeneğinin açık olduğundan emin olun; gelen kutusu kontrolü buna bağlıdır.",
+        "Oluşan şifreyi boşluksuz kopyalayın (bir daha gösterilmez).",
+        "Aşağıdaki \"Şifreyi kaydet\" düğmesine basıp yapıştırın, sonra \"Bağlantıyı test et\"e basın."
+      ]
+    },
+    {
+      "id": "outlook",
+      "name_tr": "Outlook / Hotmail",
+      "supported": false,
+      "smtp_host": "smtp-mail.outlook.com",
+      "smtp_port": 587,
+      "smtp_security": "starttls",
+      "imap_host": "outlook.office365.com",
+      "imap_port": 993,
+      "unsupported_reason_tr": "Microsoft, kişisel Outlook.com/Hotmail hesaplarında uygulama şifresiyle SMTP/IMAP girişini kapatıp OAuth2'ye zorunlu geçiriyor; bu sürüm OAuth2 desteklemiyor. Bu yüzden Outlook/Hotmail şu an desteklenmiyor."
+    }
+  ]
+}

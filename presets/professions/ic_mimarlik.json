@@ -1,0 +1,39 @@
+{
+  "id": "ic_mimarlik",
+  "name_tr": "İç Mimarlık",
+  "technical": false,
+  "search_queries_tr": [
+    "iç mimarlık ofisi",
+    "iç mekan tasarım firması",
+    "dükkan/mağaza tasarım ve uygulama firması",
+    "ofis tasarım ve dekorasyon firması",
+    "mobilya ve iç mekan uygulama firması"
+  ],
+  "company_types": [
+    "İç mimarlık/tasarım ofisi",
+    "Dekorasyon ve uygulama firması",
+    "Mobilya/mekan tasarım firması",
+    "Mağaza/perakende tasarım ve yapım firması"
+  ],
+  "default_mail_templates": {
+    "job": {
+      "subject": "{ad_soyad} – iç mimarlık Pozisyonu Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} mezunuyum. {sirket_adi} bünyesinde iç mimarlık alanında değerlendirilebileceğim açık bir pozisyon olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "internship": {
+      "subject": "{ad_soyad} – iç mimarlık Staj Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde iç mimarlık alanında staj imkânı olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "volunteer_internship": {
+      "subject": "{ad_soyad} – Gönüllü Staj Talebi",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde iç mimarlık alanında gönüllü (karşılıksız) staj yapma imkânım olup olmadığını öğrenmek isterim. Uygun olduğunuz bir tarih aralığı varsa memnuniyetle değerlendiririm. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "part_time": {
+      "subject": "{ad_soyad} – iç mimarlık Yarı Zamanlı Pozisyon Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde iç mimarlık alanında yarı zamanlı (part-time) çalışabileceğim bir pozisyon olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    }
+  },
+  "osm_tags": [
+    "office=architect"
+  ]
+}

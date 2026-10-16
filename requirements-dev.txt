@@ -1,0 +1,3 @@
+# Geliştirme araçları (uygulamanın çalışması için gerekmez; paketlenmiş .exe içine girmez)
+-r requirements.txt
+pip-audit>=2.7   # bağımlılıklarda bilinen güvenlik açığı taraması

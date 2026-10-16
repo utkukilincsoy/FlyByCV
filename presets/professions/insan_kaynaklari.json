@@ -1,0 +1,39 @@
+{
+  "id": "insan_kaynaklari",
+  "name_tr": "İnsan Kaynakları",
+  "technical": false,
+  "search_queries_tr": [
+    "insan kaynakları danışmanlık firması",
+    "işe alım ajansı",
+    "istihdam bürosu",
+    "özel istihdam bürosu",
+    "organizasyonel gelişim danışmanlığı firması"
+  ],
+  "company_types": [
+    "İnsan kaynakları/işe alım danışmanlık firması",
+    "Özel istihdam bürosu",
+    "İK departmanı olan orta/büyük şirket",
+    "Eğitim ve gelişim danışmanlık firması"
+  ],
+  "default_mail_templates": {
+    "job": {
+      "subject": "{ad_soyad} – insan kaynakları Pozisyonu Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} mezunuyum. {sirket_adi} bünyesinde insan kaynakları alanında değerlendirilebileceğim açık bir pozisyon olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "internship": {
+      "subject": "{ad_soyad} – insan kaynakları Staj Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde insan kaynakları alanında staj imkânı olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "volunteer_internship": {
+      "subject": "{ad_soyad} – Gönüllü Staj Talebi",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde insan kaynakları alanında gönüllü (karşılıksız) staj yapma imkânım olup olmadığını öğrenmek isterim. Uygun olduğunuz bir tarih aralığı varsa memnuniyetle değerlendiririm. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "part_time": {
+      "subject": "{ad_soyad} – insan kaynakları Yarı Zamanlı Pozisyon Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde insan kaynakları alanında yarı zamanlı (part-time) çalışabileceğim bir pozisyon olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    }
+  },
+  "osm_tags": [
+    "office=employment_agency"
+  ]
+}

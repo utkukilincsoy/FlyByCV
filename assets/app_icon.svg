@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- FlybyCV simgesi: güneşe doğru uçarken zarfları aşağı bırakan üç boyutlu kâğıt uçak, gökyüzü arka
+       planı. Orijinal çizim; başka bir markadan alınmamıştır. ICO/PNG: python scripts/make_icon.py -->
+  <!-- QtSvg (SVG Tiny) clipPath/filtre desteklemez: hüzme uçları yuvarlak köşenin içinde tutulur. -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6fd0ff"/>
+      <stop offset="0.55" stop-color="#3f8cf0"/>
+      <stop offset="1" stop-color="#3f3cd8"/>
+    </linearGradient>
+    <linearGradient id="wingFar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9fb4f2"/>
+      <stop offset="1" stop-color="#c9d6fb"/>
+    </linearGradient>
+    <linearGradient id="wingTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e6edff"/>
+    </linearGradient>
+    <linearGradient id="wingLow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d3defe"/>
+      <stop offset="1" stop-color="#a3b6f2"/>
+    </linearGradient>
+    <linearGradient id="keel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7389e2"/>
+      <stop offset="1" stop-color="#4b5ccc"/>
+    </linearGradient>
+    <!-- güneş: uçağın burnunda (230,34), uzaklaştıkça solan sarı -->
+    <radialGradient id="sunGlow" cx="230" cy="34" r="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fffbe0" stop-opacity="1"/>
+      <stop offset="0.25" stop-color="#ffe38a" stop-opacity="0.75"/>
+      <stop offset="0.6" stop-color="#ffd76a" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#ffd76a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sunRay" cx="230" cy="34" r="160" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff6cc" stop-opacity="0.85"/>
+      <stop offset="0.6" stop-color="#fff1b8" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#fff1b8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="noseLight" cx="230" cy="34" r="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe066" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#ffe066" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="56" fill="url(#sky)"/>
+  <!-- uzak bulut -->
+  <path d="M30 70 a14 14 0 0 1 24 -10 a18 18 0 0 1 32 6 a12 12 0 0 1 2 24 h-52 a10 10 0 0 1 -6 -20 z"
+        fill="#ffffff" fill-opacity="0.35"/>
+  <!-- güneş hüzmeleri ve parıltı (uçağın arkasında; uçlar yuvarlak köşenin içinde kalır) -->
+  <path d="M230 34 L 98 14 L 114 10 Z M230 34 L 150 10 L 164 9 Z M230 34 L 92 60 L 98 74 Z
+           M230 34 L 244 130 L 246 112 Z M230 34 L 196 176 L 208 172 Z"
+        fill="url(#sunRay)"/>
+  <rect x="8" y="8" width="240" height="240" rx="56" fill="url(#sunGlow)"/>
+  <!-- kâğıt uçak: uzak kanat, yakın (üst) kanat, alt kanat, gövde katı -->
+  <path d="M230 34 L 118 58 L 150 88 Z" fill="url(#wingFar)"/>
+  <path d="M230 34 L 70 100 L 132 124 Z" fill="url(#wingTop)"/>
+  <path d="M230 34 L 132 124 L 160 194 Z" fill="url(#wingLow)"/>
+  <path d="M132 124 L 160 194 L 116 178 Z" fill="url(#keel)"/>
+  <path d="M230 34 L 132 124" fill="none" stroke="#b4c4f6" stroke-width="3" stroke-linecap="round"/>
+  <!-- burna vuran güneş ışığı (yalnızca uçağın ön kısmı) -->
+  <path d="M230 34 L 118 58 L 150 88 Z M230 34 L 70 100 L 132 124 Z M230 34 L 132 124 L 160 194 Z"
+        fill="url(#noseLight)"/>
+  <!-- düşüş çizgileri -->
+  <path d="M62 114 V 132 M80 116 V 128 M132 184 V 198 M56 186 V 198" fill="none" stroke="#ffffff"
+        stroke-opacity="0.6" stroke-width="6" stroke-linecap="round"/>
+  <!-- düşen zarflar -->
+  <g transform="translate(72 160) rotate(14)">
+    <rect x="-30" y="-21" width="60" height="42" rx="7" fill="#ffffff"/>
+    <path d="M-25 -16 L0 4 L25 -16" fill="none" stroke="#3f3cd8" stroke-width="6"
+          stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(140 220) rotate(-20)">
+    <rect x="-23" y="-16" width="46" height="32" rx="6" fill="#ffffff"/>
+    <path d="M-19 -12 L0 3 L19 -12" fill="none" stroke="#3f3cd8" stroke-width="5"
+          stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(60 214) rotate(28)">
+    <rect x="-18" y="-13" width="36" height="26" rx="5" fill="#ffffff" fill-opacity="0.9"/>
+    <path d="M-14 -9 L0 2 L14 -9" fill="none" stroke="#3f3cd8" stroke-width="4.5"
+          stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

@@ -1,0 +1,40 @@
+{
+  "id": "muhasebe_finans",
+  "name_tr": "Muhasebe / Finans",
+  "technical": false,
+  "search_queries_tr": [
+    "mali müşavirlik bürosu",
+    "muhasebe ofisi",
+    "bağımsız denetim şirketi",
+    "finansal danışmanlık firması",
+    "muşavirlik ve vergi danışmanlığı firması"
+  ],
+  "company_types": [
+    "Mali müşavirlik/muhasebe bürosu",
+    "Bağımsız denetim şirketi",
+    "Finansal/vergi danışmanlık firması",
+    "Muhasebe departmanı olan orta/büyük şirket"
+  ],
+  "default_mail_templates": {
+    "job": {
+      "subject": "{ad_soyad} – muhasebe/finans Pozisyonu Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} mezunuyum. {sirket_adi} bünyesinde muhasebe/finans alanında değerlendirilebileceğim açık bir pozisyon olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "internship": {
+      "subject": "{ad_soyad} – muhasebe/finans Staj Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde muhasebe/finans alanında staj imkânı olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "volunteer_internship": {
+      "subject": "{ad_soyad} – Gönüllü Staj Talebi",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde muhasebe/finans alanında gönüllü (karşılıksız) staj yapma imkânım olup olmadığını öğrenmek isterim. Uygun olduğunuz bir tarih aralığı varsa memnuniyetle değerlendiririm. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "part_time": {
+      "subject": "{ad_soyad} – muhasebe/finans Yarı Zamanlı Pozisyon Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde muhasebe/finans alanında yarı zamanlı (part-time) çalışabileceğim bir pozisyon olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    }
+  },
+  "osm_tags": [
+    "office=accountant",
+    "office=financial_advisor"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "grafik_tasarim",
+  "name_tr": "Grafik Tasarım",
+  "technical": false,
+  "search_queries_tr": [
+    "grafik tasarım ajansı",
+    "reklam ve tasarım stüdyosu",
+    "marka kimliği tasarım firması",
+    "matbaa ve baskı öncesi tasarım firması",
+    "dijital tasarım stüdyosu"
+  ],
+  "company_types": [
+    "Grafik tasarım/reklam ajansı",
+    "Marka kimliği/tasarım stüdyosu",
+    "Matbaa ve baskı öncesi hizmet firması",
+    "Dijital ajans"
+  ],
+  "default_mail_templates": {
+    "job": {
+      "subject": "{ad_soyad} – grafik tasarım Pozisyonu Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} mezunuyum. {sirket_adi} bünyesinde grafik tasarım alanında değerlendirilebileceğim açık bir pozisyon olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "internship": {
+      "subject": "{ad_soyad} – grafik tasarım Staj Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde grafik tasarım alanında staj imkânı olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "volunteer_internship": {
+      "subject": "{ad_soyad} – Gönüllü Staj Talebi",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde grafik tasarım alanında gönüllü (karşılıksız) staj yapma imkânım olup olmadığını öğrenmek isterim. Uygun olduğunuz bir tarih aralığı varsa memnuniyetle değerlendiririm. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "part_time": {
+      "subject": "{ad_soyad} – grafik tasarım Yarı Zamanlı Pozisyon Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde grafik tasarım alanında yarı zamanlı (part-time) çalışabileceğim bir pozisyon olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    }
+  },
+  "osm_tags": [
+    "office=advertising_agency",
+    "office=graphic_design"
+  ]
+}

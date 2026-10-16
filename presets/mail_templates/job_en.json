@@ -1,0 +1,4 @@
+{
+  "subject": "{ad_soyad} – Application for {meslek} Position",
+  "body": "Dear Hiring Manager,\n\nMy name is {ad_soyad}, and I am a graduate of {bolum} at {okul}. I would like to ask whether {sirket_adi} has an open position in {meslek} that matches my background. Please find my CV attached.\n\nBest regards,\n{ad_soyad}"
+}

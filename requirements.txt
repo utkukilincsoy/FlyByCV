@@ -1,0 +1,48 @@
+# Arayüz
+PySide6>=6.7
+
+# Veritabanı
+sqlmodel>=0.0.21
+pydantic>=2.7          # doğrudan kullanılıyor (src/llm/schemas.py); sqlmodel ile de geliyor
+
+# Tarayıcı, tarama ve PDF
+playwright>=1.45
+playwright-stealth>=1.0.6
+beautifulsoup4>=4.12
+httpx>=0.27
+
+# Şablon
+Jinja2>=3.1
+
+# Yapay zeka sağlayıcıları
+# Alt sınırlar önemli: kullandığımız API'ler daha eski sürümlerde yok, üst sınırlar da bir sonraki
+# ana sürümün getireceği kırıcı değişikliklerden korunmak için.
+anthropic>=1.8,<2
+openai>=3.19,<4        # Groq (OpenAI-uyumlu uç) için
+google-genai>=2.25,<3  # Gemini için native uç; OpenAI-uyumlu uç yeni "AQ." anahtarlarında 401 veriyor
+
+# Mail ve doğrulama
+dnspython>=2.6
+
+# Zamanlayıcı ve güvenlik
+APScheduler>=3.10,<4
+keyring>=25.0
+
+# Saat dilimi (Windows'ta zoneinfo için şart)
+# Windows'ta IANA saat dilimi veritabanı yok; ZoneInfo("Europe/Istanbul") tzdata olmadan
+# ZoneInfoNotFoundError atar. Şu ana kadar APScheduler -> tzlocal üzerinden dolaylı geliyordu;
+# APScheduler hiç import edilmiyor, biri onu "kullanılmıyor" diye silerse gönderim çökerdi.
+tzdata>=2024.1
+
+# Arayüz teması ve ikonlar
+qt-material>=2.14
+qtawesome>=1.3
+
+# Excel / CSV içe aktarma
+openpyxl>=3.1
+
+# Geliştirme
+pytest>=8.0
+pytest-qt>=4.4      # PySide6 arayüz testleri (qtbot); testler görünmez ekranda çalışır
+pypdf>=5.0          # testlerde üretilen PDF'ten metin çıkarmak için
+pyinstaller>=6.8

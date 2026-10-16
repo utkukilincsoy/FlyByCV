@@ -1,0 +1,4 @@
+{
+  "subject": "{ad_soyad} – {meslek} Pozisyonu Başvurusu",
+  "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} mezunuyum. {sirket_adi} bünyesinde {meslek} alanında değerlendirilebileceğim açık bir pozisyon olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+}

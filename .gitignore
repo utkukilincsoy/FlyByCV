@@ -1,0 +1,41 @@
+# Sanal ortam
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Kişisel veri – ASLA git'e eklenmez
+data/*
+!data/.gitkeep
+!data/master_profile.example.json
+!data/companies.example.csv
+output/*
+!output/.gitkeep
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.bak
+.env
+.env.*
+
+# Paketleme
+build/
+dist/
+
+# Editör
+.vscode/
+.idea/
+
+# Loglar – kişisel veri içerir
+logs/
+*.log
+
+# Özel geliştirme günlüğü: yerelde kalır, yayınlanan (temiz) depoya girmez
+PLAN.md
+
+# graphify çıktısı (yerel bilgi grafiği)
+graphify-out/

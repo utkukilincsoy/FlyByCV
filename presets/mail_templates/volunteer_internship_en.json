@@ -1,0 +1,4 @@
+{
+  "subject": "{ad_soyad} – Volunteer Internship Request",
+  "body": "Dear Hiring Manager,\n\nMy name is {ad_soyad}, and I am currently a student of {bolum} at {okul}. I would like to ask whether it would be possible to complete a voluntary (unpaid) internship in {meslek} at {sirket_adi}. I would be happy to discuss a suitable date range. Please find my CV attached.\n\nBest regards,\n{ad_soyad}"
+}

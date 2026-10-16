@@ -1,0 +1,40 @@
+{
+  "id": "peyzaj_mimarligi",
+  "name_tr": "Peyzaj Mimarlığı",
+  "technical": false,
+  "search_queries_tr": [
+    "peyzaj mimarlığı ofisi",
+    "peyzaj düzenleme firması",
+    "çevre düzenleme ve bahçe tasarım firması",
+    "kentsel yeşil alan planlama firması",
+    "peyzaj uygulama ve bakım firması"
+  ],
+  "company_types": [
+    "Peyzaj mimarlığı bürosu",
+    "Peyzaj uygulama/bakım firması",
+    "Çevre düzenleme ve bahçe tasarım firması",
+    "Kentsel/park-bahçe planlama ofisi"
+  ],
+  "default_mail_templates": {
+    "job": {
+      "subject": "{ad_soyad} – peyzaj mimarlığı Pozisyonu Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} mezunuyum. {sirket_adi} bünyesinde peyzaj mimarlığı alanında değerlendirilebileceğim açık bir pozisyon olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "internship": {
+      "subject": "{ad_soyad} – peyzaj mimarlığı Staj Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde peyzaj mimarlığı alanında staj imkânı olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "volunteer_internship": {
+      "subject": "{ad_soyad} – Gönüllü Staj Talebi",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde peyzaj mimarlığı alanında gönüllü (karşılıksız) staj yapma imkânım olup olmadığını öğrenmek isterim. Uygun olduğunuz bir tarih aralığı varsa memnuniyetle değerlendiririm. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "part_time": {
+      "subject": "{ad_soyad} – peyzaj mimarlığı Yarı Zamanlı Pozisyon Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde peyzaj mimarlığı alanında yarı zamanlı (part-time) çalışabileceğim bir pozisyon olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    }
+  },
+  "osm_tags": [
+    "craft=gardener",
+    "office=architect"
+  ]
+}

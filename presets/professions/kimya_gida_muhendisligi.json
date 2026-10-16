@@ -1,0 +1,39 @@
+{
+  "id": "kimya_gida_muhendisligi",
+  "name_tr": "Kimya / Gıda Mühendisliği",
+  "technical": true,
+  "search_queries_tr": [
+    "kimya mühendisliği firması",
+    "gıda mühendisliği firması",
+    "gıda üretim tesisi",
+    "kimyasal üretim şirketi",
+    "Ar-Ge laboratuvarı gıda/kimya"
+  ],
+  "company_types": [
+    "Gıda üretim/işleme tesisi",
+    "Kimyasal üretim firması",
+    "Ar-Ge laboratuvarı",
+    "Kalite kontrol/gıda güvenliği danışmanlığı"
+  ],
+  "default_mail_templates": {
+    "job": {
+      "subject": "{ad_soyad} – kimya/gıda mühendisliği Pozisyonu Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} mezunuyum. {sirket_adi} bünyesinde kimya/gıda mühendisliği alanında değerlendirilebileceğim açık bir pozisyon olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "internship": {
+      "subject": "{ad_soyad} – kimya/gıda mühendisliği Staj Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde kimya/gıda mühendisliği alanında staj imkânı olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "volunteer_internship": {
+      "subject": "{ad_soyad} – Gönüllü Staj Talebi",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde kimya/gıda mühendisliği alanında gönüllü (karşılıksız) staj yapma imkânım olup olmadığını öğrenmek isterim. Uygun olduğunuz bir tarih aralığı varsa memnuniyetle değerlendiririm. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "part_time": {
+      "subject": "{ad_soyad} – kimya/gıda mühendisliği Yarı Zamanlı Pozisyon Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde kimya/gıda mühendisliği alanında yarı zamanlı (part-time) çalışabileceğim bir pozisyon olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    }
+  },
+  "osm_tags": [
+    "office=engineer"
+  ]
+}

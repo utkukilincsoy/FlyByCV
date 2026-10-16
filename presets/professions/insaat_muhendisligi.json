@@ -1,0 +1,40 @@
+{
+  "id": "insaat_muhendisligi",
+  "name_tr": "İnşaat Mühendisliği",
+  "technical": true,
+  "search_queries_tr": [
+    "inşaat mühendisliği firması",
+    "yapı denetim şirketi",
+    "inşaat taahhüt firması",
+    "altyapı ve yol yapım şirketi",
+    "statik proje bürosu"
+  ],
+  "company_types": [
+    "İnşaat taahhüt/müteahhitlik firması",
+    "Yapı denetim şirketi",
+    "Statik/proje mühendislik bürosu",
+    "Altyapı ve yol yapım firması"
+  ],
+  "default_mail_templates": {
+    "job": {
+      "subject": "{ad_soyad} – inşaat mühendisliği Pozisyonu Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} mezunuyum. {sirket_adi} bünyesinde inşaat mühendisliği alanında değerlendirilebileceğim açık bir pozisyon olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "internship": {
+      "subject": "{ad_soyad} – inşaat mühendisliği Staj Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde inşaat mühendisliği alanında staj imkânı olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "volunteer_internship": {
+      "subject": "{ad_soyad} – Gönüllü Staj Talebi",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde inşaat mühendisliği alanında gönüllü (karşılıksız) staj yapma imkânım olup olmadığını öğrenmek isterim. Uygun olduğunuz bir tarih aralığı varsa memnuniyetle değerlendiririm. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "part_time": {
+      "subject": "{ad_soyad} – inşaat mühendisliği Yarı Zamanlı Pozisyon Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde inşaat mühendisliği alanında yarı zamanlı (part-time) çalışabileceğim bir pozisyon olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    }
+  },
+  "osm_tags": [
+    "office=engineer",
+    "office=construction_company"
+  ]
+}

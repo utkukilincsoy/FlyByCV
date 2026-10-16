@@ -1,0 +1,40 @@
+{
+  "id": "yazilim",
+  "name_tr": "Yazılım / Bilgisayar Mühendisliği",
+  "technical": true,
+  "search_queries_tr": [
+    "yazılım şirketi",
+    "bilişim şirketi",
+    "siber güvenlik şirketi",
+    "ağ ve network çözümleri",
+    "gömülü sistemler",
+    "elektronik donanım tasarım"
+  ],
+  "company_types": [
+    "Yazılım geliştirme şirketi",
+    "Bilişim/BT danışmanlık şirketi",
+    "Siber güvenlik şirketi",
+    "Ar-Ge / teknoloji şirketi"
+  ],
+  "default_mail_templates": {
+    "job": {
+      "subject": "{ad_soyad} – yazılım geliştirme Pozisyonu Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} mezunuyum. {sirket_adi} bünyesinde yazılım geliştirme alanında değerlendirilebileceğim açık bir pozisyon olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "internship": {
+      "subject": "{ad_soyad} – yazılım geliştirme Staj Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde yazılım geliştirme alanında staj imkânı olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "volunteer_internship": {
+      "subject": "{ad_soyad} – Gönüllü Staj Talebi",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde yazılım geliştirme alanında gönüllü (karşılıksız) staj yapma imkânım olup olmadığını öğrenmek isterim. Uygun olduğunuz bir tarih aralığı varsa memnuniyetle değerlendiririm. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "part_time": {
+      "subject": "{ad_soyad} – yazılım geliştirme Yarı Zamanlı Pozisyon Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde yazılım geliştirme alanında yarı zamanlı (part-time) çalışabileceğim bir pozisyon olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    }
+  },
+  "osm_tags": [
+    "office=it"
+  ]
+}

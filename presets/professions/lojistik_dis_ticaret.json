@@ -1,0 +1,39 @@
+{
+  "id": "lojistik_dis_ticaret",
+  "name_tr": "Lojistik / Dış Ticaret",
+  "technical": false,
+  "search_queries_tr": [
+    "lojistik firması",
+    "nakliye ve taşımacılık şirketi",
+    "dış ticaret firması",
+    "gümrük müşavirliği firması",
+    "tedarik zinciri ve depolama firması"
+  ],
+  "company_types": [
+    "Lojistik/nakliye firması",
+    "Dış ticaret/ihracat firması",
+    "Gümrük müşavirliği firması",
+    "Depolama ve tedarik zinciri firması"
+  ],
+  "default_mail_templates": {
+    "job": {
+      "subject": "{ad_soyad} – lojistik/dış ticaret Pozisyonu Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} mezunuyum. {sirket_adi} bünyesinde lojistik/dış ticaret alanında değerlendirilebileceğim açık bir pozisyon olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "internship": {
+      "subject": "{ad_soyad} – lojistik/dış ticaret Staj Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde lojistik/dış ticaret alanında staj imkânı olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "volunteer_internship": {
+      "subject": "{ad_soyad} – Gönüllü Staj Talebi",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde lojistik/dış ticaret alanında gönüllü (karşılıksız) staj yapma imkânım olup olmadığını öğrenmek isterim. Uygun olduğunuz bir tarih aralığı varsa memnuniyetle değerlendiririm. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "part_time": {
+      "subject": "{ad_soyad} – lojistik/dış ticaret Yarı Zamanlı Pozisyon Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde lojistik/dış ticaret alanında yarı zamanlı (part-time) çalışabileceğim bir pozisyon olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    }
+  },
+  "osm_tags": [
+    "office=logistics"
+  ]
+}

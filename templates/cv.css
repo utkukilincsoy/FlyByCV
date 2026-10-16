@@ -1,0 +1,111 @@
+/* ATS uyumlu CV stili: tek sütun, tablo yok, ikon/grafik yok, standart font. */
+
+@page {
+  size: A4;
+  margin: 1.3cm 1.5cm;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, "Liberation Sans", sans-serif;
+  font-size: 10pt;
+  line-height: 1.25;
+  color: #000;
+}
+
+/* Başlık bloğu: ad ortalı, iletişim satırı gövdede (header/footer'da değil). */
+.cv-header {
+  text-align: center;
+  margin-bottom: 8pt;
+}
+
+.cv-header h1 {
+  margin: 0 0 2pt;
+  font-size: 19pt;
+  font-weight: normal;
+  letter-spacing: 0.4pt;
+}
+
+.contact {
+  margin: 0;
+  font-size: 9.5pt;
+}
+
+.contact a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.contact .sep {
+  margin: 0 1pt;
+}
+
+/* Bölümler */
+.section {
+  margin-bottom: 6pt;
+}
+
+.section h2 {
+  margin: 0 0 3pt;
+  padding-bottom: 1pt;
+  border-bottom: 0.7pt solid #000;
+  font-size: 11pt;
+  font-weight: normal;
+  letter-spacing: 0.6pt;
+}
+
+.summary {
+  margin: 0;
+  text-align: justify;
+}
+
+/* Tek madde (eğitim / deneyim / proje) — sayfa ortasında bölünmesin. */
+.entry {
+  margin-bottom: 5pt;
+  page-break-inside: avoid;
+}
+
+.entry:last-child {
+  margin-bottom: 0;
+}
+
+/* Tek satır içinde sağa yaslama; çok sütunlu yerleşim ya da tablo değil,
+   metin akışı soldan sağa tek sütun olarak kalır. */
+.entry-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10pt;
+}
+
+.primary {
+  font-weight: bold;
+}
+
+.secondary {
+  font-style: italic;
+}
+
+.dates {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+/* Madde işaretli cümleler */
+ul {
+  margin: 1pt 0 0;
+  padding-left: 13pt;
+}
+
+li {
+  margin-bottom: 1pt;
+  text-align: justify;
+}
+
+.skill-line {
+  margin: 0 0 2pt;
+}

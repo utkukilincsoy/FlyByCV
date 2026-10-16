@@ -1,0 +1,40 @@
+{
+  "id": "turizm_otelcilik",
+  "name_tr": "Turizm / Otelcilik",
+  "technical": false,
+  "search_queries_tr": [
+    "otel işletmesi",
+    "seyahat acentesi",
+    "turizm firması",
+    "tur operatörü",
+    "konaklama işletmesi"
+  ],
+  "company_types": [
+    "Otel/konaklama işletmesi",
+    "Seyahat acentesi",
+    "Tur operatörü",
+    "Turizm danışmanlık firması"
+  ],
+  "default_mail_templates": {
+    "job": {
+      "subject": "{ad_soyad} – turizm/otelcilik Pozisyonu Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} mezunuyum. {sirket_adi} bünyesinde turizm/otelcilik alanında değerlendirilebileceğim açık bir pozisyon olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "internship": {
+      "subject": "{ad_soyad} – turizm/otelcilik Staj Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde turizm/otelcilik alanında staj imkânı olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "volunteer_internship": {
+      "subject": "{ad_soyad} – Gönüllü Staj Talebi",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde turizm/otelcilik alanında gönüllü (karşılıksız) staj yapma imkânım olup olmadığını öğrenmek isterim. Uygun olduğunuz bir tarih aralığı varsa memnuniyetle değerlendiririm. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    },
+    "part_time": {
+      "subject": "{ad_soyad} – turizm/otelcilik Yarı Zamanlı Pozisyon Başvurusu",
+      "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde turizm/otelcilik alanında yarı zamanlı (part-time) çalışabileceğim bir pozisyon olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+    }
+  },
+  "osm_tags": [
+    "office=travel_agent",
+    "tourism=hotel"
+  ]
+}

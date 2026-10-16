@@ -1,0 +1,10 @@
+{
+  "last_checked": "2026-09-30",
+  "source_url": "https://developers.google.com/maps/billing-and-pricing/pricing",
+  "source_page_updated": "2026-09-24",
+  "currency": "USD",
+  "sku": "Places API Text Search Enterprise",
+  "free_monthly_requests": 1000,
+  "usd_per_1000_requests": 35.0,
+  "note": "Fiyat Google'ın fiyat sayfasından elle alındı ve DEĞİŞEBİLİR; gerçek fatura için Google Cloud Console'a bakın. usd_per_1000_requests, ayda 100.000 isteğe kadar geçerli ilk kademedir (uygulamanın aylık sabit tavanı 2000). Uygulama `places.websiteUri` alanını istediği için Enterprise SKU'su varsayılır; bu alanın hangi SKU'ya girdiği fiyat sayfasında açıkça yazmıyor. Ücretsiz kota Google hesabınızdaki TÜM Text Search Enterprise kullanımı içindir; uygulama yalnızca kendi attığı istekleri bilir."
+}

@@ -1,0 +1,4 @@
+{
+  "subject": "{ad_soyad} – {meslek} Staj Başvurusu",
+  "body": "Merhaba,\n\nBen {ad_soyad}, {okul} {bolum} öğrencisiyim. {sirket_adi} bünyesinde {meslek} alanında staj imkânı olup olmadığını öğrenmek isterim. Özgeçmişimi ekte bulabilirsiniz.\n\nSaygılarımla,\n{ad_soyad}"
+}
